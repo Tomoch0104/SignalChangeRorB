@@ -12,7 +12,6 @@ public class RedSetter implements ActionListener{
 
     // ボタンが押された通知
     public void actionPerformed(ActionEvent ev){
-        SignalDisplay sr=new SignalDisplay();
-        sr.setRed();
+        signal.setRed();
     }
 }

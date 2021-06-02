@@ -24,7 +24,6 @@ public class SignalDisplay extends JPanel{
 
     // 描画する
     public void paintComponent(Graphics g){
-        System.out.println("ペイントコンポーネントの呼び出し");
         super.paintComponent(g);
         int w=getWidth(),h=getHeight();      // 大きさ
         g.setColor(Color.white);             // 白で

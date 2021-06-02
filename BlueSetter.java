@@ -12,8 +12,7 @@ public class BlueSetter implements ActionListener{
 
     // ボタンが押された通知
     public void actionPerformed(ActionEvent ev){
-        SignalDisplay sd=new SignalDisplay();
-        System.out.println("ボタンを押しました");
-        sd.setBlue();
+        // SignalDisplay sd=new SignalDisplay();
+        signal.setBlue();
     }
 }
